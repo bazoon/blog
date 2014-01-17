@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog</title>
+  <link data-turbolinks-track="true" href="/stylesheets/application.css" media="all" rel="stylesheet" />
+  <script data-turbolinks-track="true" src="/javascripts/application.js"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="N+R0FO+EcQlTP46myj4ti511m23D96KBCAJRw4zrNtw=" name="csrf-token" />
+</head>
+<body>
+
+<h1>Listing posts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Body</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td>ew</td>
+        <td>wwe</td>
+        <td><a href="/posts/1">Show</a></td>
+        <td><a href="/posts/1/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-method="delete" href="/posts/1" rel="nofollow">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>weew</td>
+        <td>we</td>
+        <td><a href="/posts/2">Show</a></td>
+        <td><a href="/posts/2/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-method="delete" href="/posts/2" rel="nofollow">Destroy</a></td>
+      </tr>
+      <tr>
+        <td>weew</td>
+        <td>weew</td>
+        <td><a href="/posts/3">Show</a></td>
+        <td><a href="/posts/3/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" data-method="delete" href="/posts/3" rel="nofollow">Destroy</a></td>
+      </tr>
+  </tbody>
+</table>
+
+<br>
+
+<a href="/posts/new">New Post</a>
+
+
+</body>
+</html>
